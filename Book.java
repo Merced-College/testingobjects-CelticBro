@@ -44,6 +44,7 @@ public class Book {
                 return score;
             }
 
+			@Override
 			public String toString() {
                 return title + ", " + author + ", " + score;
 
